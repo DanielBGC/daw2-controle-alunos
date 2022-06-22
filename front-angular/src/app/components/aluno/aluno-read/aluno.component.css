@@ -1,0 +1,179 @@
+div.view {
+    position: relative;
+}
+
+div.view .form-buttons {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    display: flex;
+}
+
+div.view .form-buttons button {
+    margin-left: 1rem;
+}
+
+div.view form mat-form-field {
+    margin-right: 2rem;
+}
+
+div.view table {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+div.view i {
+    margin-right: 10px;
+}
+
+div.view a.view > i {
+    color: #193574;
+    cursor: pointer;
+}
+
+div.view a.history > i {
+    color: #193574;
+    cursor: pointer;
+}
+
+div.view a.edit > i {
+    color: #d9c626;
+    cursor: pointer;
+}
+
+div.view a.delete > i{
+    color: #db3c51;
+    cursor: pointer;
+}
+
+div.view button {
+    margin: 20px 0px;
+}
+
+div.create form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+div.create form .form-field-group  {
+    display: flex;
+}
+
+div.create form .form-field-group mat-form-field {
+    margin-right: 1rem;
+}
+
+div.create button {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+div.create ngx-material-timepicker-toggle {
+    position: absolute;
+    right: 0;
+    top: -5px
+}
+
+div.create .aulas-form mat-form-field {
+    margin-right: 1rem;
+}
+
+div.create .addFormAula {
+    position: absolute;
+    right: 0;
+}
+
+div.update form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+div.update form .form-field-group  {
+    display: flex;
+}
+
+div.update form .form-field-group mat-form-field {
+    margin-right: 1rem;
+}
+
+div.update button {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+div.delete form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+div.delete form .form-field-group  {
+    display: flex;
+}
+
+div.delete form .form-field-group mat-form-field {
+    margin-right: 1rem;
+}
+
+div.delete button {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+div.aulas table {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+div.aulas h3 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+div.aulas button {
+    margin-top: 2rem;
+}
+/* 
+.modal {
+    position: fixed !important; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-body {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+
+    color: black;
+}
+
+.modal-header .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-footer > :not(:last-child) {
+    margin-left: 0.25rem;
+    margin-right: 0;
+}  */

@@ -1,0 +1,27 @@
+
+.error-box {
+  // text-align: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  .error-body {
+    padding-top: 5%;
+  }
+
+  .error-title {
+    font-size: 20vw;
+    font-weight: 900;
+    text-shadow: 4px 4px 0 #fff, 6px 6px 0;
+    line-height: 10px;
+  }
+
+  .error-subtitle {
+    margin-top: 5rem !important;
+    font-size: 6vw;
+  }
+}
